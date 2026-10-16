@@ -1,207 +1,282 @@
-# Project-Portfolio
+# Senior Software Engineer | AI & Software Solutions Architect | Technical Project Lead
 
-## About Me
+> **15+ years of software engineering experience | Complex systems | Mobile | Qt/C++ | AI & Computer Vision | Technical Leadership**
 
-Software developer and technical project lead with professional IT experience since 2009, specializing in mobile applications, Qt applications, AI applications, enterprise software, risk solution and complex system integration.
+I am a senior software engineer and technical project lead with professional IT experience since 2009.
 
-My experience spans AI application development, mobile development, machine-connected systems, real-time media, logistics, emergency systems, and enterprise applications.
+My career has covered **mobile applications, C/C++, Qt, real-time systems, computer vision, AI-integrated applications, enterprise software, and complex system integration**. I have worked as a hands-on engineer as well as a software architect, project manager, technical lead, and mentor.
+
+My strongest capability is **risk solving**: identifying difficult technical or project risks, solving the immediate problem, and then addressing the follow-on issues required to bring the project to a successful final result.
 
 ---
 
-## Selected Projects
+## What I Do
 
-| Project                                        | Problem                                                          | Role                                     | Key Challenge                                                        | Solution                                                                        | Core Skills                                                                   |
-| ---------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| 🕺 **AI Dancer Body-Pose Evaluation**          | Automated dancer performance evaluation                          | Software / AI Developer                  | Convert body movement into a measurable score                        | OpenPose → body landmarks → joint angles → standard comparison → **0–10 score** | Computer Vision · OpenPose · OpenCV · Qt · C++ · Algorithms                   |
-| 🧵 **Embroidery Machine Control & Monitoring** | Connect mobile software with an embroidery machine               | Software Developer / System Designer     | Process large amounts of machine data while showing real-time status | Bluetooth communication + real-time processing + **OpenGL visualization**       | C/C++ · Mobile · Bluetooth · OpenGL · Real-Time Processing                    |
-| 🚢 **Cargo Management System**                 | Manage complex cargo operations involving software and equipment | **Technical Lead / Project Manager**     | Design architecture for complex operational workflows                | System architecture + team coordination + risk solving + software integration   | Architecture · Project Management · Team Leadership · Logistics · Integration |
-| 🚨 **Emergency Management System — Australia** | Support emergency operations across web and mobile               | Software Developer                       | Coordinate multiple platforms                                        | AngularJS administration + Android + iOS applications                           | AngularJS · Android · iOS · Mobile · Web · API Integration                    |
-| 📹 **Real-Time Video/Audio Application**       | Enable mobile real-time audio/video communication                | Mobile / Real-Time Developer             | Preserve important data immediately when communication ended         | Real-time media processing + reliable data persistence                          | C/C++ · Objective-C · Android · iOS · Audio/Video · Real-Time Systems         |
-| ⚓ **Port ERP Management System**               | Support complex port/business operations                         | Software Developer / Project Contributor | Work with interconnected enterprise processes                        | Enterprise software development and system integration                          | ERP · Enterprise Systems · Architecture · Integration · Logistics             |
+- **Software Engineering** — C/C++, Qt, mobile applications, real-time systems
+- **Software Architecture** — designing practical structures for complex applications and integrations
+- **AI & Computer Vision** — OpenPose, OpenCV, pose estimation, image/video processing, AI-integrated applications
+- **Mobile Development** — iOS and Android applications
+- **Enterprise Systems** — ERP, logistics, cargo and operational systems
+- **Technical Project Leadership** — project planning, team coordination, mentoring, technical decisions
+- **Risk Solving** — identifying critical technical risks and driving them through to resolution
 
+---
 
-### 🕺 AI Dancer Body-Pose Evaluation System
+## Selected Project Portfolio
 
-**Industry:** AI / Computer Vision / Education  
+| Project | Period | My Role | Key Challenge / Contribution |
+|---|---:|---|---|
+| 🚢 **Cargo Management System** | 2018–2019 | Project Manager · Software Architect · Engineer | Designed project structure and software architecture; managed the development team; solved critical technical and project risks in a system involving software, machines and operational units |
+| ⚓ **Port ERP Management System** | 2020–2023 | Project Manager · Technical Lead · Mentor | Contributed to a large enterprise system and provided technical leadership, project coordination and mentoring |
+| 🕺 **AI-Based Dance Pose Evaluation System** | 2017 | Software / AI Developer | Built a camera-based evaluation system using OpenPose, Qt and Python; converted body-pose landmarks and joint angles into a 0–10 performance score |
+| 🧵 **Embroidery Machine Control System** | 2016 | Software Developer · System Designer | Connected mobile software with a low-level machine/device through Bluetooth and solved the high-volume real-time visualization problem using OpenGL |
+| 🚨 **Emergency System — Australia** | 2015 | Software Developer | Worked on a multi-platform emergency system involving a web administration side plus Android and iOS client applications |
+| 🚌 **Bus Route Management System** | 2015 | Software Developer | Web application using Vue.js, Ruby on Rails and MongoDB |
+| 📹 **Real-Time Video/Audio Application** | 2014 | Mobile / Real-Time Developer | Worked on mobile audio/video communication and reliable recording-data persistence when communication ended |
+| 🎮 **Flash Game Porting to Mobile** | 2012–2013 | Mobile Game Developer | Ported Flash game experience to mobile platforms and built hands-on mobile development experience |
+
+---
+
+# Featured Case Studies
+
+## 🚢 Cargo Management System
+
+**Period:** 2018–2019  
+**Role:** Project Manager · Software Architect · Engineer  
+**Domain:** Cargo / Port / Logistics
+
+I worked on a complex Cargo Management System that combined software with physical machines and operational units.
+
+My responsibilities covered both **technical and project-level work**:
+
+- Designed the overall software architecture and project structure
+- Managed and coordinated the development team
+- Worked hands-on as an engineer
+- Identified and solved critical project and technical risks
+- Coordinated software requirements involving operational equipment and processes
+- Continued resolving follow-on problems after major risks were addressed so the final system could be delivered
+
+This project is one of the best examples of my ability to combine **software engineering, architecture, project management and practical problem solving**.
+
+---
+
+## 🕺 AI-Based Dance Pose Evaluation System
+
+**Period:** 2017  
+**Domain:** AI / Computer Vision / Education  
 **Role:** Software / AI Developer
 
-Developed a camera-based system for evaluating a dancer's body posture and generating a performance score.
+I developed an educational application that evaluates a dancer's body pose through a camera instead of relying on human testers.
 
-**Key Challenge**
-- Convert human body movement into measurable data.
-- Evaluate body posture using standardized teacher-defined joint angles.
+The system uses standard teacher-defined body-pose node angles to calculate a performance score between **0 and 10**.
 
-**Approach**
+### Processing Pipeline
 
 ```text
 Camera
   ↓
 OpenPose
   ↓
-Body Landmarks
+Body Pose Landmarks
   ↓
-Joint Angle Analysis
+Joint Angle Calculation
   ↓
-Standard Comparison
+Comparison with Standard Poses
   ↓
-Performance Score
+Performance Score (0–10)
 ```
 
-**Technologies:** C++, Python, Qt, OpenPose, OpenCV, Computer Vision, Pose Estimation, Algorithm Design
+**Technologies:** C++, Python, Qt, OpenPose, OpenCV, Computer Vision, Pose Estimation, Algorithm Development
+
+The application currently runs on Windows and was designed with Qt, providing a foundation for cross-platform development.
 
 ---
 
-### 🧵 Embroidery Machine Control & Monitoring System
+## 🧵 Embroidery Machine Control System
 
-**Industry:** Manufacturing / Machine Integration  
-**Role:** Software Developer / System Designer
+**Period:** 2016  
+**Domain:** Manufacturing / Machine Integration  
+**Role:** Software Developer · System Designer
 
-Developed a mobile application and communication system for interacting with an embroidery machine through a low-level device and Bluetooth.
+I developed a mobile control/monitoring solution connecting a low-level device associated with an embroidery machine to a mobile application through Bluetooth.
 
-**Key Challenge**
-- Process a large amount of machine-status data.
-- Display the current machine operation smoothly in real time.
+The Bluetooth communication itself was not the main technical challenge. The difficult part was **processing and visualizing a large amount of machine-status data in real time on the application display**.
 
-**Approach**
+I addressed this high-risk visualization problem using **OpenGL**, enabling efficient rendering of the current sewing status.
+
+### System Concept
 
 ```text
 Embroidery Machine
-  ↓
-Low-Level Device
-  ↓
-Bluetooth
-  ↓
-Mobile Application
-  ↓
-Real-Time Data Processing
-  ↓
-OpenGL Visualization
+        ↓
+ Low-Level Device
+        ↓
+    Bluetooth
+        ↓
+ Mobile Application
+        ↓
+ Real-Time Data Processing
+        ↓
+ OpenGL Visualization
 ```
 
 **Technologies:** C/C++, Mobile Development, Bluetooth, OpenGL, Real-Time Processing, Data Visualization
 
 ---
 
-### 🚢 Cargo Management System
+## 🚨 Emergency System — Australian Business
 
-**Industry:** Port / Logistics  
-**Role:** Technical Lead / Project Manager / Software Architect
-
-Worked on a complex cargo management system involving software, operational workflows, teams, and physical equipment/units.
-
-**Key Contributions**
-- Designed project structure and software architecture.
-- Managed development teams.
-- Solved critical project risks and technical problems.
-- Coordinated software requirements involving operational equipment.
-
-**Technologies:** C/C++, System Architecture, Enterprise Software, Logistics, Integration, Project Management
-
----
-
-### 🚨 Emergency Management System — Australia
-
-**Industry:** Emergency Management  
+**Period:** 2015  
+**Domain:** Emergency Management  
 **Role:** Software Developer
 
-Developed an emergency-management system consisting of a web administration platform and mobile applications.
+Worked on an emergency-management system consisting of a web administration platform and client applications.
 
-**System**
+### Main Components
 
 ```text
-MEAN Web Administration
+Web Administration
         ↓
-     Backend/API
-      ↙      ↘
- Android     iOS
+      Backend
+      ↙    ↘
+ Android   iOS
 ```
 
-**Key Contributions**
-- Developed client-side mobile applications.
-- Worked on the web administration system.
-- Supported communication between web and mobile components.
-- Delivered a multi-platform operational system.
+**Technologies:** MEAN Stack, Ruby, AngularJS, Android, iOS, Desktop Application Development
 
-**Technologies:** MEAN stack, Android, iOS, Mobile Development, Web Development, API Integration, Location Detection
+My work covered multiple platforms and required coordination between web and mobile components.
 
 ---
 
-### 📹 Real-Time Video & Audio Mobile Application
+## 📹 Real-Time Video / Audio Processing Application
 
-**Industry:** Real-Time Communication  
-**Role:** Mobile / Real-Time Media Developer
+**Period:** 2014  
+**Domain:** Real-Time Communication  
+**Role:** Mobile / Real-Time Developer
 
-Worked on a mobile application involving real-time audio and video communication.
+Worked on a mobile application involving real-time video and audio communication using **OpenTok**.
 
-**Key Challenge**
+One important technical risk was ensuring that recording data was **saved reliably and immediately when communication ended**.
 
-Ensure important recorded information was saved immediately when communication ended.
-
-**Key Contributions**
-- Worked with real-time audio/video communication.
-- Handled mobile media processing.
-- Addressed reliable data persistence after communication sessions.
-
-**Technologies:** C/C++, Objective-C, Android, iOS, Real-Time Audio/Video, Media Processing, Data Persistence
+**Technologies:** OpenTok, iOS, Android, Objective-C, C/C++, Audio/Video Processing, Real-Time Systems, Data Persistence
 
 ---
 
-### ⚓ Port ERP Management System
+## 🚌 Bus Route Management System
 
-**Industry:** Port / Enterprise Software  
-**Role:** Software Developer / Project Contributor
+**Period:** 2015  
+**Domain:** Transportation / Web Application
 
-Worked on a large-scale Port ERP Management System supporting complex business and operational processes.
+Developed a bus-route management application using:
 
-**Key Contributions**
-- Enterprise software development.
-- Integration of interconnected business processes.
-- Worked within a large project environment involving port operations.
-
-**Technologies:** Enterprise Software, ERP, Software Architecture, System Integration, Logistics
+- Vue.js
+- Ruby on Rails
+- MongoDB
 
 ---
 
-## Core Technical Areas
+## 🎮 Flash Game Porting to Mobile
 
-### Languages & Frameworks
+**Period:** 2012–2013  
+**Domain:** Mobile Gaming
+
+Worked on porting Flash-game experience to mobile platforms.
+
+This period was important in developing my practical mobile-development foundation after learning C/C++ and Objective-C through hands-on software and game development.
+
+---
+
+# Technical Skills
+
+### Core Engineering
 - C / C++
-- Objective-C, Swift, Java, Kotlin
+- Objective-C
 - Qt
-- MEAN
+- QML
+- Software Architecture
+- Algorithms
+- Real-Time Processing
 
 ### Mobile
 - iOS
 - Android
-- Cross-platform development
+- Mobile Application Development
 
-### Computer Vision / AI
+### AI & Computer Vision
 - OpenPose
 - OpenCV
-- Pose estimation
-- Image / video processing
-- TensorFlow / NLP studies
+- Pose Estimation
+- Image / Video Processing
+- AI-integrated Applications
+- TensorFlow / NLP study
 
-### Real-Time & Systems
+### Graphics & Systems
 - OpenGL
-- Bluetooth communication
-- Real-time audio/video
-- Machine communication
-- Data processing and visualization
+- Bluetooth Communication
+- Data Visualization
+- Machine / Device Integration
+- Real-Time Audio / Video
 
-### Enterprise & Leadership
-- System architecture
-- Project management
-- Team management
-- Risk solving
-- Enterprise software
-- Logistics / cargo systems
-- System integration
+### Web & Enterprise
+- MEAN Stack
+- Vue.js
+- Ruby on Rails
+- MongoDB
+- Enterprise Systems
+- ERP
+- Logistics / Cargo Systems
+
+### Leadership
+- Project Management
+- Technical Leadership
+- Software Architecture
+- Team Management
+- Mentoring
+- Technical Risk Management
+- Problem Solving
 
 ---
 
-## Professional Focus
+# Professional Approach
 
-My experience is centered on solving **complex technical and operational problems**, particularly where software interacts with real-world systems, devices, people, or large amounts of real-time data.
+I am most effective when a project has **real technical complexity and meaningful risks**.
 
-**Software Engineering, System Architecture, Real-Time Systems, Mobile Development, Computer Vision, AI Application, Enterprise Systems, Technical Leadership, Project Management**
+I do not focus only on writing code. I look at the complete problem:
+
+```text
+Understand the Problem
+        ↓
+Identify the Risk
+        ↓
+Design a Practical Solution
+        ↓
+Implement
+        ↓
+Resolve Follow-on Problems
+        ↓
+Deliver the Result
+```
+
+My experience has taught me that solving the first difficult problem is often only the beginning. A successful engineer must also handle the problems that appear afterward and keep the project moving toward its final goal.
+
+---
+
+# Current Direction
+
+I am currently expanding my focus toward **AI-powered software and modern AI applications**, building on my previous experience in computer vision, OpenPose, OpenCV, TensorFlow/NLP study, mobile development, and complex software systems.
+
+I am interested in opportunities where I can contribute as a:
+
+- Senior Software Engineer
+- Software / AI Solutions Architect
+- Technical Project Lead
+- Technical Lead
+- AI Application Engineer
+- Engineering Team Lead
+
+---
+
+## Note on Portfolio
+
+Some of the projects listed here were developed professionally for clients or employers and therefore cannot be published as source code. This portfolio focuses on the **problems solved, my personal contributions, technical decisions, and engineering experience** rather than claiming ownership of proprietary code.
+
